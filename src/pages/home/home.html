@@ -1,0 +1,20 @@
+<ion-content padding center text-center>
+
+  <ion-title>Iniciar Sesion</ion-title>
+  
+  <ion-list>
+
+    <ion-item>
+      <ion-input placeholder="Username" [(ngModel)]="userName"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input placeholder="Password" type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <button ion-button full round (click)="login()">Ingresar</button>
+  <button ion-button full color="light" round (click)="registrarUsuario()">Registrate</button>
+
+</ion-content>
