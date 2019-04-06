@@ -1,12 +1,15 @@
 page-home {
 
-    ion-title * {
-        margin-top: 30vh;
-        margin-botton: 5vh;
-    }
+    
 
     .ingresar {
         display: inline-block;
+    }
+
+    img {
+        width: 150px;
+        height: 200px;
+        padding: 20px;
     }
 
 }
