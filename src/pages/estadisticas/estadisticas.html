@@ -6,7 +6,7 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>Estadisticas</ion-title>
+    <ion-title>Estadisticas y Mapas</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -14,11 +14,33 @@
 
   <ion-card>
 
-    <ion-card-title>Indice de Robos de Autopartes</ion-card-title>
-
-    <ion-card-content>
-
-    </ion-card-content>
+    <img src="assets/imgs/mapa.jpg">
+    <ion-fab right top>
+      <button ion-fab>
+        <ion-icon name="pin"></ion-icon>
+      </button>
+    </ion-fab>
+    
+    <ion-item>
+      <ion-icon name="lock" item-start large></ion-icon>
+      <h2>Dreccion</h2>
+      <p>Av. Constancio Farfan #62, Tenextepango, Mor.</p>
+    </ion-item>
+    
+    <ion-item>
+      <ion-icon name="unlock" item-start large></ion-icon>
+      <h2>Direccion</h2>
+      <p>Calle Miguel Hidalgo S/N, Col. Niño Artillero, Cuautla</p>
+    </ion-item>
+    
+    <ion-item>
+      <span item-start>18 min</span>
+      <span item-start>(2.6 mi)</span>
+      <button ion-button icon-start clear item-end>
+        <ion-icon name="navigate"></ion-icon>
+        Start
+      </button>
+    </ion-item>
 
   </ion-card>
 
