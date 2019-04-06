@@ -10,16 +10,24 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-inicio',
-  templateUrl: 'inicio.html',
+  selector: "page-inicio",
+  templateUrl: "inicio.html"
 })
 export class InicioPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
+  constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams
+  ) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad InicioPage');
+    console.log("ionViewDidLoad InicioPage");
   }
 
+  activarAlarma() {
+    console.log("Esto funciona :D");
+  }
+
+  desactivarAlarma() {
+    console.log("Esto funciona tambien :D");
+  }
 }

@@ -1,5 +1,7 @@
 {
   "name": "tire-protect",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
