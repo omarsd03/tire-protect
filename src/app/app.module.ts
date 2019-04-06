@@ -10,6 +10,7 @@ import { RegisterPage } from '../pages/register/register';
 import { InicioPage } from '../pages/inicio/inicio';
 import { EstadisticasPage } from '../pages/estadisticas/estadisticas';
 import { SoportePage } from '../pages/soporte/soporte';
+import { TabsPage } from '../pages/tabs/tabs';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SoportePage } from '../pages/soporte/soporte';
     RegisterPage,
     InicioPage,
     EstadisticasPage,
-    SoportePage
+    SoportePage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { SoportePage } from '../pages/soporte/soporte';
     RegisterPage,
     InicioPage,
     EstadisticasPage,
-    SoportePage
+    SoportePage,
+    TabsPage
   ],
   providers: [
     StatusBar,
